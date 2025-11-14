@@ -23,25 +23,25 @@ df.fillna(0, inplace=True)
 
 ### **2. Exploratory Data Analysis (EDA)
 
-Performed statistical analysis to understand trends and distributions.
+- Performed statistical analysis to understand trends and distributions.
 
-Generated insights on purchase amounts, age groups, and customer subscriptions.
+- Generated insights on purchase amounts, age groups, and customer subscriptions.
 
-Visualized findings using matplotlib and seaborn for better clarity.
+- Visualized findings using matplotlib and seaborn for better clarity.
 
 Key Insights:
 
-Most customers belong to the Young Adult and Adult age groups.
+- Most customers belong to the Young Adult and Adult age groups.
 
-Clothing generates the highest revenue and sales volume.
+- Clothing generates the highest revenue and sales volume.
 
-About 27% of customers have an active subscription.
+- About 27% of customers have an active subscription.
 
 ### **3. SQL Analysis (MySQL)
 
-Imported the cleaned data into MySQL for analytical queries.
+- Imported the cleaned data into MySQL for analytical queries.
 
-Validated and aggregated insights using SQL.
+- Validated and aggregated insights using SQL.
 
 SELECT category, SUM(revenue) AS total_revenue
 FROM customer_behaviour
@@ -51,57 +51,57 @@ ORDER BY total_revenue DESC;
 
 SQL Tasks:
 
-Compared average purchase values by subscription type.
+- Compared average purchase values by subscription type.
 
-Identified top-performing product categories.
+- Identified top-performing product categories.
 
-Aggregated revenue by age and gender for deeper segmentation.
+- Aggregated revenue by age and gender for deeper segmentation.
 
-4. Dashboard Creation (Power BI)
+### **4. Dashboard Creation (Power BI)
 
-Connected MySQL data to Power BI.
+- Connected MySQL data to Power BI.
 
-Designed a clean, interactive dashboard showing:
+- Designed a clean, interactive dashboard showing:
 
-Total Customers
+- Total Customers
 
-Average Purchase Amount
+- Average Purchase Amount
 
-Average Review Rating
+- Average Review Rating
 
-Revenue by Category
+- Revenue by Category
 
-Sales by Age Group
+- Sales by Age Group
 
-Customer Subscription Split
+-Customer Subscription Split
 
 Dashboard Features:
 
-Filters by Gender, Subscription Status, and Shipping Method.
+- Filters by Gender, Subscription Status, and Shipping Method.
 
-Charts for Revenue & Sales comparisons.
+- Charts for Revenue & Sales comparisons.
 
-Dynamic KPIs summarizing key metrics.
+- Dynamic KPIs summarizing key metrics.
 
-Tools & Technologies
+- Tools & Technologies
 
-Python: Pandas, NumPy, Matplotlib, Seaborn
+- Python: Pandas, NumPy, Matplotlib, Seaborn
 
-Database: MySQL
+- Database: MySQL
 
-Visualization: Power BI
+- Visualization: Power BI
 
-Environment: Jupyter Notebook
+- Environment: Jupyter Notebook
 
 Key Takeaways:
 
-Learned end-to-end data pipeline: loading → cleaning → SQL → dashboarding.
+- Learned end-to-end data pipeline: loading → cleaning → SQL → dashboarding.
 
-Improved storytelling with data through visualization.
+- Improved storytelling with data through visualization.
 
-Delivered actionable insights for business decision-making.
+- Delivered actionable insights for business decision-making.
 
-Screenshot of Dashboard: 
+Screenshot of Dashboard: https://github.com/Sunainamohammad7/Customer_Behaviour_Analytics/blob/main/Customer_Behaviour_Analytics.png
 
 Example of Dashboard : https://github.com/Sunainamohammad7/Customer_Behaviour_Analytics/blob/main/Customer_Behaviour.pbix 
 
