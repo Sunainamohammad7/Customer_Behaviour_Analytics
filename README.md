@@ -101,7 +101,7 @@ Improved storytelling with data through visualization.
 
 Delivered actionable insights for business decision-making.
 
-Screenshot of Dashboard:
+Screenshot of Dashboard: 
 
-Example of Dashboard :
+Example of Dashboard : https://github.com/Sunainamohammad7/Customer_Behaviour_Analytics/blob/main/Customer_Behaviour.pbix 
 
